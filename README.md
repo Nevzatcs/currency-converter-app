@@ -25,7 +25,15 @@
 
 [(Back to top)](#table-of-contents)
 ## ✨ Preview
-<iframe src="https://giphy.com/embed/283xLxpZmA9WaWgpaA" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/283xLxpZmA9WaWgpaA">via GIPHY</a></p>
+
+
+
+https://user-images.githubusercontent.com/80898514/145052242-9e44c0e9-0f80-427c-a35b-b07d2c623573.mp4
+
+
+
+
+
 
 
 ## 📥 Installation
