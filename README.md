@@ -153,7 +153,7 @@ mvnw spring-boot:run
 
 Copyright © 2021.
 
-This project is [MIT](https://github.com/Nevzatcs/player-app/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/Nevzatcs/currency-converter-app/blob/main/LICENSE) licensed.
 
 
 ---
