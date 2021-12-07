@@ -127,30 +127,8 @@ mvnw spring-boot:run
 
 [(Back to top)](#table-of-contents)
 
-[comment]: <> (
-[comment]: <> (* 0.2.1)
 
-[comment]: <> (    * CHANGE: Update docs &#40;module code remains unchanged&#41;)
 
-[comment]: <> (* 0.2.0)
-
-[comment]: <> (    * CHANGE: Remove `setDefaultXYZ&#40;&#41;`)
-
-[comment]: <> (    * ADD: Add `init&#40;&#41;`)
-
-[comment]: <> (* 0.1.1)
-
-[comment]: <> (    * FIX: Crash when calling `baz&#40;&#41;` &#40;Thanks @GenerousContributorName!&#41;)
-
-[comment]: <> (* 0.1.0)
-
-[comment]: <> (    * The first proper release)
-
-[comment]: <> (    * CHANGE: Rename `foo&#40;&#41;` to `bar&#40;&#41;`)
-
-[comment]: <> (* 0.0.1)
-
-[comment]: <> (    * Work in progress)
 
 
 ## 🤝 Contributing
