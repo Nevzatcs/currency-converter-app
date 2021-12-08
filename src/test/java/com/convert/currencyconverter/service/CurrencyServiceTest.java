@@ -105,18 +105,21 @@ class CurrencyServiceTest {
 
     @Test
     void convertShouldReturnValueWhenCurrencyDoesNotExist() {
-        Currency TRY = new Currency("TRY", 13.35);
-        Currency USD = new Currency("USD", 1.12);
 
-        Mockito.when(mockCurrencyRepository.findById("TRY")).thenReturn(Optional.of(TRY));
-        Mockito.when(mockCurrencyRepository.findById("USD")).thenReturn(Optional.of(USD));
+        Currency currencyEUR = new Currency("EUR", 1);
+        Currency currencyUSD = new Currency("TRY", 15.400459);
 
-        ConversionCurrency conversionCurrency = new ConversionCurrency("TRY", "USD", 1);
+        Mockito.when(mockCurrencyRepository.findById("EUR")).thenReturn(Optional.of(currencyEUR));
+        Mockito.when(mockCurrencyRepository.findById("TRY")).thenReturn(Optional.of(currencyUSD));
+
+        ConversionCurrency conversionCurrency = new ConversionCurrency("TRY", "EUR", 10);
 
         Optional<Double> result = currencyService.convert(conversionCurrency);
 
         assertTrue(result.isPresent());
-        assertEquals(11.92, result.get());
+        double expected = Math.round(154.004 * 100.0) / 100.0;
+        double actual = Math.round(result.get()* 100.0) / 100.0;
+        assertEquals(expected,  actual);
 
     }
 }

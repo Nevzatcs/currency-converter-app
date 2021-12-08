@@ -91,13 +91,13 @@ mvnw spring-boot:run
 
 
 
-* POST Currency Convert :
+* POST http://localhost:8080/currency-converter for Currency Convert :
 
 ```  
 {
-  from:"TRY",
-  to:"usd",
-  value:"100"
+  "from":"TRY",
+  "to":"usd",
+  "value":"100"
 } 
   ```
 
